@@ -71,6 +71,7 @@ const Highlight = lazy(() =>
   import("../../Pages/ListingHouseStepTwo/Highlight")
 );
 // import PaymentConfirmed from "../../Pages/PaymentConfirmed";
+import { Navigate } from "react-router-dom";
 
 const router = createBrowserRouter([
   {
@@ -79,18 +80,8 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: (
-          <Suspense
-            fallback={
-              <div className=" flex justify-center items-center w-full h-[60dvh]">
-                <FadeLoader color="#000" />
-              </div>
-            }
-          >
-            <Home />
-          </Suspense>
-        ),
-      },
+        element: <Navigate to="/host/homes" replace />,
+      },      
       {
         path: "/rooms/:id",
         element: (
