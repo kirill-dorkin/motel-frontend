@@ -20,7 +20,6 @@
     "react": "^18.2.0",
     "react-date-range": "^1.4.0",
     "react-dom": "^18.2.0",
-    "react-elastic-carousel": "^0.11.5",
     "react-hook-form": "^7.44.3",
     "react-hot-toast": "^2.4.1",
     "react-icons": "^4.10.1",
@@ -33,6 +32,7 @@
     "redux": "^4.2.1",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.4.2",
+    "swiper": "^11.2.6",
     "twind": "^0.16.19"
   },
   "devDependencies": {
